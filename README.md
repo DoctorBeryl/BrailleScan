@@ -198,6 +198,39 @@ Testarea se face prin compararea:
 
 ---
 
+## 12. Media & 3D Design Files
+
+### Prototype Overview
+
+<p align="center">
+  <img src="assets/model.png" width="600"/>
+</p>
+
+The image above shows the current physical prototype of the BrailleScan system, including the 3D printed structure designed to hold and align the microswitch-based detection mechanism.
+
+---
+
+### 3D Printed Components
+
+The mechanical system is composed of multiple modular parts designed for flexibility and iterative improvement:
+
+- Base Structure (v1.1 STL): `assets/BrailleBaseAlex1.1.stl`
+- Base Structure (v1.2.3 MF): `assets/BrailleBaseAlex1.2.3mf`
+- Center Frame: `assets/BrailleCenter.stl`
+- Bottom Support: `assets/BrailleBottom6.stl`
+- Connector Module: `assets/BrailleConnector.stl`
+
+---
+
+### Notes on Design
+
+The system was designed in a modular way to allow:
+- fast iteration of mechanical alignment
+- easier calibration of microswitch positioning
+- structural stability improvements over multiple versions
+
+The design is still under refinement, especially in terms of precision alignment between sensing elements.
+
 # Repository
 
 GitHub repository:
